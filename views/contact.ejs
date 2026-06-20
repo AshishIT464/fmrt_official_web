@@ -1,0 +1,124 @@
+<%- include('partials/header') %>
+
+<!-- ========================= STYLISH HERO SECTION ========================= -->
+<section class="relative w-full min-h-[60vh] flex items-center justify-center overflow-hidden bg-iitkNavy pt-20 pb-40">
+    <!-- Background Vector & Gradient -->
+    <div class="absolute inset-0 z-0">
+        <img src="/images/blue-vector.png" alt="Contact IITK FMRT" class="w-full h-full object-cover opacity-30">
+        <div class="absolute inset-0 bg-gradient-to-b from-iitkNavy/90 via-iitkNavy/70 to-hospitalLight"></div>
+    </div>
+
+    <!-- Centered Text Content -->
+    <div class="relative z-10 text-center px-4 sm:px-8 max-w-4xl mx-auto">
+        <span class="text-iitkTeal font-bold tracking-[0.2em] uppercase text-xs sm:text-sm mb-4 block">Get In Touch</span>
+        <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 tracking-tight drop-shadow-lg">
+            We're Here to Connect
+        </h1>
+        <p class="text-base sm:text-lg text-gray-200 font-light leading-relaxed max-w-2xl mx-auto drop-shadow-md">
+            Whether you are a patient seeking care, a researcher looking to collaborate, or a professional wanting to join our mission, our doors are open.
+        </p>
+    </div>
+</section>
+
+<!-- ========================= FLOATING CONTACT CARDS GRID ========================= -->
+<section class="relative z-20 max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 -mt-20 lg:-mt-28">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        
+        <!-- CARD 1: Physical Location (White Card) -->
+        <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border-t-4 border-iitkTeal flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group">
+            <div class="w-16 h-16 rounded-full bg-hospitalLight text-iitkTeal flex items-center justify-center mb-6 group-hover:bg-iitkTeal group-hover:text-white transition-colors duration-300">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-iitkNavy mb-4">Visit Us</h3>
+            <p class="text-gray-600 leading-relaxed text-sm">
+                Foundation For Medical Research & Technology,<br>
+                IIT Kanpur Campus, Kalyanpur,<br>
+                Kanpur – 208 016, UP, India
+            </p>
+            <a href="#mapSection" class="mt-auto pt-6 text-iitkTeal font-bold uppercase text-[11px] tracking-widest hover:text-iitkNavy transition-colors">View Map ↓</a>
+        </div>
+
+        <!-- CARD 2: Direct Contact (Inverted Navy/Teal Premium Card) -->
+        <div class="bg-gradient-to-b from-iitkNavy to-[#0a2b5e] rounded-2xl shadow-2xl p-8 lg:p-10 flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 scale-100 md:scale-105 z-10 border border-white/10 relative overflow-hidden">
+            <!-- Decorative blur blob -->
+            <div class="absolute -top-10 -right-10 w-32 h-32 bg-iitkTeal blur-3xl opacity-20 rounded-full"></div>
+            
+            <div class="w-16 h-16 rounded-full bg-white/10 text-white flex items-center justify-center mb-6 ring-1 ring-white/20">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-white mb-6">Direct Contact</h3>
+            
+            <div class="space-y-5 w-full">
+                <a href="tel:+917525031033" class="flex flex-col items-center p-3 rounded-lg hover:bg-white/5 transition-colors group">
+                    <span class="text-gray-400 uppercase tracking-widest text-[10px] font-bold mb-1">Call Us</span>
+                    <span class="text-white font-medium group-hover:text-iitkbluelight transition-colors">+91-75250-31033</span>
+                </a>
+                <div class="w-full h-[1px] bg-white/10"></div>
+                <a href="mailto:admin1_fmrt@iitk.ac.in" class="flex flex-col items-center p-3 rounded-lg hover:bg-white/5 transition-colors group">
+                    <span class="text-gray-400 uppercase tracking-widest text-[10px] font-bold mb-1">Email Us</span>
+                    <span class="text-white font-medium group-hover:text-iitkbluelight transition-colors break-all">admin1_fmrt@iitk.ac.in</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- CARD 3: Hours & Network (White Card) -->
+        <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border-t-4 border-iitkTeal flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group">
+            <div class="w-16 h-16 rounded-full bg-hospitalLight text-iitkTeal flex items-center justify-center mb-6 group-hover:bg-iitkTeal group-hover:text-white transition-colors duration-300">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-iitkNavy mb-4">Office Hours</h3>
+            <p class="text-gray-600 leading-relaxed text-sm mb-6">
+                <strong>Monday – Saturday:</strong><br>
+                9:00 AM – 5:30 PM (IST)<br>
+                <span class="text-[10px] text-gray-400 uppercase tracking-wider block mt-1">Closed on Sundays & Public Holidays</span>
+            </p>
+            
+            <div class="mt-auto pt-6 border-t border-gray-100 w-full">
+                <span class="text-iitkNavy font-bold uppercase tracking-widest text-[10px] block mb-3">Our Network</span>
+                <div class="flex justify-center gap-4">
+                    <a href="https://iitk.ac.in" target="_blank" class="text-xs text-gray-500 hover:text-iitkTeal font-medium transition-colors">IITK Main</a>
+                    <span class="text-gray-300">•</span>
+                    <a href="https://iitk.ac.in/gsmst/" target="_blank" class="text-xs text-gray-500 hover:text-iitkTeal font-medium transition-colors">GSMST</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================= EXTRA WIDE PADDED MAP CONTAINER ========================= -->
+<section id="mapSection" class="py-20 lg:py-28 w-full px-4 sm:px-8 lg:px-12">
+    <div class="flex flex-col md:flex-row justify-between items-end mb-8 gap-4 max-w-[1600px] mx-auto">
+        <div>
+            <div class="flex items-center gap-3 mb-2">
+                <div class="w-8 h-[2px] bg-iitkTeal"></div>
+                <span class="font-bold uppercase tracking-widest text-xs text-gray-500">Find Us</span>
+            </div>
+            <h2 class="font-heading text-3xl font-extrabold text-iitkNavy">Campus Location</h2>
+        </div>
+        
+        <!-- Stylish Button to open in Google Maps App -->
+        <a href="https://maps.google.com/?q=IIT+Kanpur" target="_blank" class="bg-white border border-gray-200 text-iitkNavy px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest hover:border-iitkTeal hover:text-iitkTeal shadow-sm transition-all flex items-center gap-2">
+            Open in Maps
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+    </div>
+
+    <!-- The Map Frame (Restored Height, Expanded Width) -->
+    <div class="w-full max-w-[1600px] mx-auto h-[400px] md:h-[500px] bg-gray-100 rounded-[2rem] overflow-hidden shadow-xl border border-gray-200/60 relative group p-2">
+        <div class="w-full h-full rounded-[1.5rem] overflow-hidden">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.272186716075!2d80.2305018150352!3d26.5123388833013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c36fdd4725493%3A0x76b6de1eb867b36a!2sIndian%20Institute%20of%20Technology%20Kanpur!5e0!3m2!1sen!2sin!4v1655385311234!5m2!1sen!2sin" 
+                width="100%" 
+                height="100%" 
+                style="border:0; filter: contrast(1.05) grayscale(0.2) hue-rotate(5deg);" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                class="transition-all duration-700 group-hover:filter-none">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<%- include('partials/footer') %>

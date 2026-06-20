@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500;700;800;900&display=swap');
+
+:root {
+    --iitk-navy: #002B6B;
+    --iitk-teal: #00857E;
+    --iitk-teal-hover: #006B66;
+    --hospital-light: #F4F7F9;
+    --iitk-blue-light: #60AEFF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--hospital-light);
+    color: #1E293B;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ===========================
+   CUSTOM UI COMPONENTS
+============================*/
+
+/* Frosted Glass Panels */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+}
+
+/* Primary Buttons */
+.btn-primary {
+    background-color: var(--iitk-teal);
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: var(--iitk-teal-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 133, 126, 0.2);
+}
+
+/* ===========================
+   HERO SECTION OVERRIDES
+============================*/
+.hero-gradient-overlay {
+    background: linear-gradient(90deg, rgba(4,30,66,0.95) 0%, rgba(4,30,66,0.7) 50%, rgba(0,0,0,0.3) 100%);
+}
+
+.heroSwiper .swiper-slide img {
+    transform: scale(1);
+    transition: transform 8s ease, filter 1.5s ease;
+}
+
+.heroSwiper .swiper-slide-active img {
+    transform: scale(1.08);
+}
+
+/* ===========================
+   CARDS & HOVER EFFECTS
+============================*/
+.hover-card-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-card-up:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card {
+    border-top: 4px solid var(--iitk-teal);
+}
+
+.icon-box {
+    background-color: var(--hospital-light);
+    color: var(--iitk-teal);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover .icon-box {
+    background-color: var(--iitk-teal);
+    color: #ffffff;
+}

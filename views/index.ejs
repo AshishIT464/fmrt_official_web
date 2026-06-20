@@ -1,0 +1,194 @@
+<%- include('partials/header') %>
+
+<section class="relative min-h-[70vh] sm:min-h-[75vh] lg:min-h-[85vh] flex items-center overflow-hidden bg-iitkNavy">
+    <div class="swiper heroSwiper absolute inset-0 z-0">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/images/01 AERIAL VIEW.jpg" class="w-full h-full object-cover opacity-60" alt="Aerial View"></div>
+            <div class="swiper-slide"><img src="/images/02 MES_01.jpg" class="w-full h-full object-cover opacity-60" alt="Medical Engineering"></div>
+            <div class="swiper-slide"><img src="/images/hero.jpg" class="w-full h-full object-cover opacity-60" alt="FMRT Center"></div>
+        </div>
+    </div>
+    
+    <div class="hero-gradient-overlay absolute inset-0 z-10"></div>
+    
+    <div class="relative z-20 w-full py-16 sm:py-24 lg:py-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
+            <div class="max-w-3xl">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-8 h-[2px] bg-iitkTeal"></div>
+                    <span class="uppercase tracking-[0.3em] text-iitkbluelight text-xs font-bold">IITK Foundation for Medical Research and Technology</span>
+                </div>
+                <h1 class="text-white font-heading font-black leading-[1.1] text-4xl sm:text-5xl lg:text-7xl tracking-tight">
+                    Where <span class="text-iitkbluelight">Engineering</span> <br class="hidden sm:inline">Meets Medicine
+                </h1>
+                <p class="text-gray-300 font-normal text-xl lg:text-2xl mt-4">for a Healthier India.</p>
+                <p class="text-gray-300 text-base sm:text-lg leading-relaxed mt-6 max-w-xl">
+                    IITK Foundation for Medical Research & Technology is pioneering a new era where engineering excellence, translational research, and compassionate clinical care converge.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 mt-10 pb-15 lg:pb-20">
+                    <a href="/about" class="btn-primary px-8 py-4 rounded-lg bg-gradient-to-r from-[#063f8e] to-[#207ce5] text-white shadow-lg shadow-[#207ce5]/40 rounded-full px-6 py-2 font-bold border-2 border-[#60AEFF] text-center font-bold">Discover Our Story</a>
+                    <a href="/contact" class="px-8 py-4 rounded-lg border border-white/40 text-white text-center font-bold hover:bg-white hover:text-iitkNavy transition duration-300">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="relative z-30 max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 -mt-10 sm:-mt-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-xl p-6 sm:p-8 stat-card flex items-center justify-between hover-card-up group">
+            <div>
+                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold">Phase I</p>
+                <h2 class="counter text-4xl sm:text-5xl font-black text-iitkNavy mt-1" data-target="450">0</h2>
+                <p class="text-iitkTeal font-bold text-sm mt-1">Hospital Beds</p>
+            </div>
+            <div class="w-14 h-14 rounded-lg icon-box flex items-center justify-center">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M2.535 11A3.981 3.981 0 0 0 2 13v4a1 1 0 0 0 1 1h2v1a1 1 0 1 0 2 0v-1h10v1a1 1 0 1 0 2 0v-1h2a1 1 0 0 0 1-1v-4c0-.729-.195-1.412-.535-2H2.535ZM20 9V8a4 4 0 0 0-4-4h-3v5h7Zm-9-5H8a4 4 0 0 0-4 4v1h7V4Z"/>
+</svg>
+
+            </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-iitkTeal to-[#006B66] rounded-xl shadow-xl p-6 sm:p-8 text-white flex items-center justify-between hover-card-up group">
+            <div>
+                <p class="text-xs uppercase tracking-widest text-white/70 font-bold">Future Capacity (Phase II)</p>
+                <h2 class="counter text-5xl sm:text-6xl font-black mt-1" data-target="1000">0</h2>
+                <p class="text-white font-medium text-sm mt-1">Planned Hospital Beds</p>
+            </div>
+            <div class="w-14 h-14 rounded-lg bg-white/10 flex items-center justify-center text-white">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2v14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2V5a1 1 0 0 1-1-1Zm5 2a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H9Zm5 0a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1Zm-5 4a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H9Zm5 0a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-1Zm-3 4a2 2 0 0 0-2 2v3h2v-3h2v3h2v-3a2 2 0 0 0-2-2h-2Z" clip-rule="evenodd"/>
+</svg>
+
+            </div>
+        </div>
+        
+        <div class="bg-white rounded-xl shadow-xl p-6 sm:p-8 stat-card flex items-center justify-between hover-card-up group">
+            <div>
+                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold">Innovation Hubs</p>
+                <h2 class="counter text-4xl sm:text-5xl font-black text-iitkNavy mt-1" data-target="8">0</h2>
+                <p class="text-iitkTeal font-bold text-sm mt-1">Centres of Excellence</p>
+            </div>
+            <div class="w-14 h-14 rounded-lg icon-box flex items-center justify-center">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.6427 21h14M16.2928 9c.8398.95515 1.3499 2.213 1.3499 3.5912 0 2.9872-2.3962 5.4088-5.3521 5.4088-1.9895 0-3.72545-1.097-4.6479-2.7251m-2-.2749h6m.4369-4.4369L10.6427 12m5.8092-5.76698 2.1554-2.15534M17.5296 3l2.1553 2.15534M10.6427 18v3m4-3v3m.7315-15.84464-4.3107 4.31068 2.1554 2.15536 4.3107-4.3107-2.1554-2.15534Z"/>
+</svg>
+
+        </div>
+    </div>
+</section>
+
+<section class="mt-16 bg-iitkTeal text-white py-5 px-4 sm:px-8 lg:px-16">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm gap-4">
+        <p class="font-medium text-center md:text-left leading-relaxed">
+            <span class="bg-white/20 px-2 py-0.5 rounded text-xs uppercase font-bold mr-2">Milestone</span>
+            <strong>Foundation Stone Laid:</strong> July 16, 2022 by Hon'ble Union Education Minister Shri Dharmendra Pradhan
+        </p>
+        <a href="/news" class="uppercase tracking-widest font-bold text-xs hover:text-iitkNavy transition-colors shrink-0">Latest Updates →</a>
+    </div>
+</section>
+
+<section class="py-20 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+        <div class="lg:w-1/2 order-2 lg:order-1">
+            <span class="text-iitkTeal font-bold tracking-widest uppercase text-xs mb-3 block">About FMRT</span>
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-iitkNavy mb-6 leading-tight">A New Paradigm in Healthcare & MedTech Innovation</h2>
+            <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
+                The IITK Foundation for Medical Research & Technology (FMRT) was established under the aegis of IIT Kanpur to bridge the critical gap between engineering and medicine. Building on IIT Kanpur's decades of research excellence, FMRT drives the delivery of affordable healthcare solutions.
+            </p>
+            <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-8">
+                During the COVID-19 pandemic, IIT Kanpur's ecosystem delivered the Swasa N95 mask, the no-cog ventilator, and crucial oxygen systems—proving that our operational structure functions flawlessly at scale.
+            </p>
+            <a href="/about" class="inline-block bg-white text-iitkNavy border-2 border-iitkNavy px-6 py-3.5 font-bold tracking-wider text-xs uppercase hover:bg-iitkNavy hover:text-white transition-all">Read More About Us →</a>
+        </div>
+        
+        <div class="lg:w-1/2 w-full order-1 lg:order-2">
+            <div class="relative w-full aspect-video bg-black rounded-xl shadow-2xl flex items-center justify-center overflow-hidden group border border-gray-100">
+                <video id="hospitalVideo" class="w-full h-full object-cover" poster="/images/hero.jpg">
+                    <source src="/videos/Hos_vid.mp4" type="video/mp4">
+                    Your device does not support embedded video rendering tags.
+                </video>
+                <button id="playBtn" class="absolute inset-0 m-auto w-16 h-16 bg-white text-iitkNavy rounded-full flex items-center justify-center shadow-2xl hover:bg-iitkTeal hover:text-white transition-all duration-300">
+                    <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20"><path d="M4 4l12 6-12 6z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"> 
+        <div class="bg-white rounded-xl shadow-sm border-t-4 border-iitkTeal hover-card-up flex flex-col overflow-hidden"> 
+            <img src="/images/02 MES_01.jpg" alt="Super Speciality Hospital" class="w-full h-44 object-cover">
+            <div class="p-6 flex-grow">
+                <h4 class="font-heading font-bold text-lg text-iitkNavy mb-2">Super Specialty Hospital</h4> 
+                <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">450+ bedded Yadupati Singhania Super Specialty Hospital serving millions within a 300 km radius of Kanpur.</p> 
+            </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border-t-4 border-iitkTeal hover-card-up flex flex-col overflow-hidden">
+            <img src="/images/center.jpg" alt="Centers of Excellence" class="w-full h-44 object-cover">
+            <div class="p-6 flex-grow">
+                <h4 class="font-heading font-bold text-lg text-iitkNavy mb-2">Centers of Excellence</h4>
+                <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Multiple R&D CoEs focused on India-centric healthcare challenges—from advanced cardiac devices to oncology.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border-t-4 border-iitkTeal hover-card-up flex flex-col overflow-hidden">
+            <img src="/images/medical.jpg" alt="Medical Education" class="w-full h-44 object-cover">
+            <div class="p-6 flex-grow">
+                <h4 class="font-heading font-bold text-lg text-iitkNavy mb-2">Medical Education</h4>
+                <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Interdisciplinary PG and doctoral programs running smoothly at the intersection of engineering and medicine.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border-t-4 border-iitkTeal hover-card-up flex flex-col overflow-hidden">
+            <img src="/images/medtech.png" alt="MedTech Innovation" class="w-full h-44 object-cover">
+            <div class="p-6 flex-grow">
+                <h4 class="font-heading font-bold text-lg text-iitkNavy mb-2">MedTech Innovation</h4>
+                <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">From Hridayantra cardiac solutions to advanced AI systems—commercializing real clinical solutions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-20 px-4 sm:px-8 lg:px-16 bg-white border-t border-gray-100">
+    <div class="max-w-7xl mx-auto">
+        <div class="mb-12 max-w-2xl">
+            <span class="text-iitkTeal font-bold tracking-widest uppercase text-xs mb-3 block">Centers of Excellence</span>
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-iitkNavy mb-4">Specialized R&D Hubs</h2>
+            <p class="text-gray-600 text-sm sm:text-base leading-relaxed">Each CoE handles critical health challenges through an integrated framework pairing engineers with medical experts.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="md:col-span-2 bg-hospitalLight p-8 rounded-xl border-l-4 border-iitkTeal hover:shadow-md transition-shadow duration-300">
+                <span class="text-iitkTeal font-bold tracking-wider text-[10px] uppercase mb-2 block">Targeting Commercialization Within a Year</span>
+                <h3 class="font-heading font-bold text-xl text-iitkNavy mb-3">Cardiac Sciences & Devices</h3>
+                <p class="text-gray-600 text-sm leading-relaxed max-w-xl">Pioneering the Hridayantra cardiac assist system along with local health technologies designed to aid patients dealing with acute heart failure conditions.</p>
+            </div>
+            
+            <div class="bg-iitkNavy text-white p-8 rounded-xl hover:shadow-md transition-shadow duration-300">
+                <h3 class="font-heading font-bold text-xl mb-3">Cancer Care & Research</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">A specialized 200-bedded oncological research ward processing low-cost diagnostic frameworks and targeted screening setups.</p>
+            </div>
+
+            <div class="bg-hospitalLight p-8 rounded-xl border-l-4 border-iitkNavy hover:shadow-md transition-shadow duration-300">
+                <h3 class="font-heading font-bold text-xl text-iitkNavy mb-3">Neurosciences</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Advanced neuro-diagnostics pairing engineering computations and specialized models with clinical application.</p>
+            </div>
+
+            <div class="bg-hospitalLight p-8 rounded-xl border-l-4 border-iitkNavy hover:shadow-md transition-shadow duration-300">
+                <h3 class="font-heading font-bold text-xl text-iitkNavy mb-3">Digital Health & Telemedicine</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Building an integrated Digital Health Stack in partnership with ICICI Foundation—leveraging remote tools for rural healthcare delivery.</p>
+            </div>
+
+             <div class="bg-hospitalLight p-8 rounded-xl border-l-4 border-iitkNavy hover:shadow-md transition-shadow duration-300">
+                <h3 class="font-heading font-bold text-xl text-iitkNavy mb-3">Antimicrobial Resistance (AMR)</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Multidisciplinary research clusters defining structural, organic, and biochemical protocols to mitigate AMR threat factors.</p>
+            </div>
+
+            <div class="bg-hospitalLight p-8 rounded-xl border-l-4 border-iitkTeal hover:shadow-md transition-shadow duration-300 lg:col-span-3">
+                <h3 class="font-heading font-bold text-xl text-iitkNavy mb-3">Orthopaedics & Joint Replacement</h3>
+                <p class="text-gray-600 text-sm leading-relaxed lg:max-w-3xl">Affordable implant designs using smart biometric mapping processes to service patients requiring intensive trauma restorations across the region.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('partials/footer') %>
